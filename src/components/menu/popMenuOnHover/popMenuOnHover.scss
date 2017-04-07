@@ -1,0 +1,47 @@
+// * {
+//   box-sizing: border-box;
+//   padding: 0px;
+//   margin: 0px;
+//   //border: none;
+// }
+
+$popMenuWidth: 100px;
+$popMenuBackgroundColor: #757F82;
+$popMenuElementColor: #FFFFFF;
+$putAnyElementContainerHeight: 50px;
+$shouldMenuPopUp: true;
+
+.containerForHover {
+  position: relative;
+  display: inline-block;
+  height: $putAnyElementContainerHeight;
+  
+  .putAnyElementContainer {
+    //display: inline-block;
+    //min-height: $putAnyElementContainerHeight;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  
+  .popMenu {
+    position: absolute;
+    @if $shouldMenuPopUp
+      {bottom: $putAnyElementContainerHeight;}
+    @else
+      {top: $putAnyElementContainerHeight;}
+    right: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: auto;
+    background-color: $popMenuBackgroundColor;
+    color: $popMenuElementColor;
+    //width: $popMenuWidth;
+    font-size: 1.5em;
+  }
+}
+
+.showNone {
+  display: none;
+}
