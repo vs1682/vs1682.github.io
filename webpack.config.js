@@ -5,7 +5,7 @@ module.exports = {
     entry: "./index.js",
     output: {
         path: __dirname + '/build',
-        filename: "build.js",
+        filename: "build.min.js",
         publicPath: "/build/"
     },
     module: {
@@ -46,9 +46,15 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: __dirname
+        contentBase: __dirname,
+        port: 8000
     },
     plugins: [
+        new webpack.DefinePlugin({
+          'process.env': {
+            NODE_ENV: JSON.stringify('production')
+          }
+        }),
         new webpack.LoaderOptionsPlugin({
             minimize: true,
             debug: false
@@ -60,7 +66,8 @@ module.exports = {
                 keep_fnames: true
             },
             compress: {
-                screw_ie8: true
+                screw_ie8: true,
+                warnings: false
             },
             comments: false
         })
