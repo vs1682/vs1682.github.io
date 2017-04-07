@@ -1,0 +1,25 @@
+.bio {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 32px;
+    font-size: 1.2em;
+    color: #757F82;
+    h1 {
+        color: #303D56;
+        font-size: 4em;
+        &:hover {
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bio {
+        padding: 8px;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+}
