@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 160px;
+    box-shadow: 5px 5px 20px #BDBDBD;
+    border-radius: 8px;
+    margin: 4px;
+    cursor: pointer;
+    animation-duration: 3s;
+
+    &:hover {
+        box-shadow: 0px 5px 10px #BDBDBD;
+    }
+
+    label {
+        color: #757F82;
+    }
+
+}
