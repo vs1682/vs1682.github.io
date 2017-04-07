@@ -1,0 +1,46 @@
+@import './font-awesome/scss/font-awesome';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.portfolio {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.menu {
+    flex: 0 0 50px;
+}
+
+.metaDataContainer {
+    flex: 0 0 50px;
+}
+
+.home {
+    flex: 1 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .home {
+        flex-flow: column nowrap;
+        align-items: stretch;
+        overflow: auto;
+    }
+
+    .portfolio {
+        padding: 0px;
+    }
+}
