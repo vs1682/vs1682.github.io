@@ -13,7 +13,7 @@ class MetaData extends Component {
                     </a>
                 </div>
                 <div className="roundSidedButton">
-                    <a href="mailto:vcoolvish@yahoo.com">Hire Me!</a>
+                    <a href="mailto:vishalshinde1682@gmail.com">Hire Me!</a>
                 </div>
             </div>
         );
