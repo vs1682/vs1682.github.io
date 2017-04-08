@@ -10,9 +10,10 @@
     h1 {
         color: #303D56;
         font-size: 4em;
-        &:hover {
-            
-        }
+        animation-duration: 3s;
+    }
+    p {
+        animation-duration: 4s;
     }
 }
 
