@@ -8,4 +8,4 @@
 5. [CSS3](https://developer.mozilla.org/en/docs/Web/CSS/CSS3)
 6. [Javascript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
-###License [MIT](https://opensource.org/licenses/MIT)
+### License [MIT](https://opensource.org/licenses/MIT)
