@@ -18,43 +18,43 @@ class Stack extends Component {
                     imageUrl={html5Logo}
                     imageText="html5"
                     url="https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5"
-                    animation="bounceIn"
+                    animation="fadeInDown"
                 />
                 <Card 
                     imageUrl={css3Logo}
                     imageText="css3"
                     url="https://developer.mozilla.org/en/docs/Web/CSS/CSS3"    
-                    animation="bounceIn"
+                    animation="fadeInDown"
                 />
                 <Card 
                     imageUrl={javascriptLogo} 
                     imageText="javascript"
                     url="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"    
-                    animation="bounceInDown"
+                    animation="fadeInDown"
                 />
                 <Card 
                     imageUrl={bootstrapLogo}
                     imageText="bootstrap"
                     url="http://getbootstrap.com/"    
-                    animation="bounceInLeft"
+                    animation="fadeInDown"
                 />
                 <Card 
                     imageUrl={sassLogo}
                     imageText="sass"
                     url="http://sass-lang.com/"
-                    animation="bounceInRight"
+                    animation="fadeInDown"
                 />               
                 <Card 
                     imageUrl={reactLogo}
                     imageText="react"
                     url="https://facebook.github.io/react/"
-                    animation="bounceInUp"
+                    animation="fadeInDown"
                 />
                 <Card 
                     imageUrl={webpackLogo}
                     imageText="webpack"
                     url="https://webpack.github.io/"
-                    animation="zoomInDown"
+                    animation="fadeInDown"
                 />
             </div>
         );
