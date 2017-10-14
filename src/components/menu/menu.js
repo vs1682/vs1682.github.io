@@ -40,6 +40,9 @@ class FlexboxHeader extends React.Component {
               <a href="https://github.com/vs1682" className="popMenuElement">
                 <span className="fa fa-github"></span>
               </a>
+              <a href="https://stackoverflow.com/users/5616999/vs1682" className="popMenuElement">
+                <span className="fa fa-stack-overflow"></span>
+              </a>
               <a href="https://codepen.io/vs1682" className="popMenuElement">
                 <span className="fa fa-codepen"></span>
               </a>
