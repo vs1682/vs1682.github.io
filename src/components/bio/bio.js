@@ -6,8 +6,8 @@ class Bio extends Component {
         return(
             <div className="bio">
                 <h1 className="animated fadeIn">Vishal Shinde</h1>
-                <p className="animated fadeIn">Two and a half years of experience in designing and developing Websites
-                    . Currently working as Front End developer in Cognizant, India.
+                <p className="animated fadeIn">Three years of experience in designing and developing Websites
+                    . Currently working as a Front End developer at Raja Software Labs, Pune, India.
                 </p>
             </div>
         );
