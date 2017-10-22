@@ -7,6 +7,7 @@ import bootstrapLogo from '../../assets/images/bootstrap.svg';
 import sassLogo from '../../assets/images/sass.svg';
 import reactLogo from '../../assets/images/react.svg';
 import webpackLogo from '../../assets/images/webpack.svg';
+import reduxLogo from '../../assets/images/redux.svg';
 import './stack.scss';
 
 class Stack extends Component {
@@ -48,6 +49,12 @@ class Stack extends Component {
                     imageUrl={reactLogo}
                     imageText="react"
                     url="https://facebook.github.io/react/"
+                    animation="fadeInDown"
+                />
+                <Card 
+                    imageUrl={reduxLogo}
+                    imageText="redux"
+                    url="http://redux.js.org/"
                     animation="fadeInDown"
                 />
                 <Card 
